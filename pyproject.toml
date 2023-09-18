@@ -4,9 +4,3 @@ requires = [
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
-
-[tool.flit.sdist]
-include = [
-    "cad/",
-    "settings/"
-]
