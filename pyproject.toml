@@ -6,7 +6,8 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.package-data]
-generator = ["*.csv"]
+"*" = ["*.csv"]
+"*" = ["*.dxf"]
 
 [tool.setuptools.packages]
 find = {}
